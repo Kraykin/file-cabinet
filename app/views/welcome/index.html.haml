@@ -1,2 +1,18 @@
-%h1 Welcome#index
-%p Find me in app/views/welcome/index.html.erb
+#banner
+  .banner_content
+    %h1 File Cabinet
+    %p Your life's work. Organized, always.
+    %button= link_to 'Enter', new_user_registration_path
+
+#callouts
+  .callout_inner
+    .wrapper
+      .callout
+        %h2 Organize
+        %p Bring to the table win-win survival strategies to ensure proactive domination. At the end of the day, going forward, a new normal that has evolved from generation X is on the runway heading towards a streamlined cloud solution. User generated content in real-time will have multiple touchpoints for offshoring.
+
+#bottom_cta
+  .wrapper
+    %h2 Go Ahead!
+    %br
+    %button= link_to 'Join Now', new_user_registration_path
